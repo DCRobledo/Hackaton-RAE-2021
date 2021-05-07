@@ -14,6 +14,7 @@ class word_type(Enum):
     PREPOSITION = 6
     CONJUNCTION = 7
     INTERJECTION = 8
+    OTHER = 9
     
 class word_category(Enum):
     NEOLOGISM = 1
@@ -31,10 +32,11 @@ class word_composition(Enum):
     COMPOUND = 2
     OTHER = 3
     
-class filter_type(Enum):
+class classifier_type(Enum):
     CATEGORY = 1
     SCOPE = 2
     COMPOSITION = 3
+    OTHER = 4
     
 class analyzer_goal(Enum):
     FRECUENCY = 1
@@ -42,6 +44,7 @@ class analyzer_goal(Enum):
     FOREIGN_WORDS = 3
     MOST_FRECUENT_TYPE = 4
     DEFINITION = 5
+    OTHER = 6
     
 class tuple_type(Enum):
     FRECUENCY = 1
@@ -49,12 +52,15 @@ class tuple_type(Enum):
     FOREIGN_WORDS = 3
     MOST_FRECUENT_TYPE = 4
     DEFINITION = 5
+    OTHER = 6
     
 class graphic_type(Enum):
     TABLE = 1
     GRAPH = 2
+    OTHER = 3
     
 class graph_type(Enum):
     BAR = 1
     LINEAR = 2
+    OTHER = 3
     
