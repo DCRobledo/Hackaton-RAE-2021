@@ -14,7 +14,8 @@ class word_type(Enum):
     PREPOSITION = 6
     CONJUNCTION = 7
     INTERJECTION = 8
-    OTHER = 9
+    ARTICLE = 9
+    OTHER = 10
     
 class word_category(Enum):
     NEOLOGISM = 1
