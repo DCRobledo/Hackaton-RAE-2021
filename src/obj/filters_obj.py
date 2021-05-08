@@ -22,7 +22,7 @@ class filtered_word(word):
         this.type = set_type(type)
     
     def set_type(self, type):
-        if type in range(1, 8):
+        if type in range(1, 9):
             return word_type(type)
         else:
             return word_type.OTHER
