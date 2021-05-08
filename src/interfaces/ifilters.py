@@ -14,44 +14,44 @@ class ifilters:
         check_interjection(word)
     
     def check_article(self, word):
-        " Function explanation "
+        " This function checks if a word is an article, in which case it eliminates that word "
         pass
     
     def check_pronoun(self, word):
-        " Function explanation "
+        " This function checks if a word is an pronoun, in which case it eliminates that word "
         pass
     
     def check_preposition(self, word):
-        " Function explanation "
+        " This function checks if a word is an preposition, in which case it eliminates that word "
         pass
     
     def check_conjunction(self, word):
-        " Function explanation "
+        " This function checks if a word is an conjuction, in which case it eliminates that word "
         pass
     
     def check_interjection(self, word):
-        " Function explanation "
+        " This function checks if a word is an interjection, in which case it eliminates that word "
         pass
     
     def check_good_types(self, word):
         check_noun(word)
-        check_verb(word)
+        check_adjetive(word)
         check_adverb(word)
         check_verb(word)
         
     def check_noun(self, word):
-        " Function explanation "
+        " This function assings the noun word type to a word in case it detects that it belongs to that family "
         pass
     
-    def check_verb(self, word):
-        " Function explanation "
+    def check_adjetive(self, word):
+        " This function assings the adjetive word type to a word in case it detects that it belongs to that family "
         pass
     
     def check_adverb(self, word):
-        " Function explanation "
+        " This function assings the adverb word type to a word in case it detects that it belongs to that family "
         pass
     
     def check_verb(self, word):
-        " Function explanation "
+        " This function assings the verb word type to a word in case it detects that it belongs to that family "
         pass
         

@@ -2,14 +2,14 @@
 
 class iinput_process:
     def remove_characters(self, text, caracters_to_remove = {'.', ';', ',', ' '}):
-        " Function explanation "
+        " This function sholud process all the text from the input resource and eliminate the characters which are contained in the argument list "
         pass
     
     def format_output(self, text):
-        " Function explanation "
+        " This function needs to transform the input character chain into the desired format "
         pass
     
     def add_aditional_information(self, word, year, source, RAE):
-        " Function explanation "
+        " This function simply adds a word's basic information "
         pass
     

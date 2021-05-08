@@ -36,15 +36,15 @@ class ioutput_process:
     
     
     def create_table(self, conclusion, type):
-        " Function explanation "
+        " This function created a table with the data within a conclusion object "
         pass
     
     def create_bar_graph(self, conclusion, type):
-        " Function explanation "
+        " This function created a bar graph with the data within a conclusion object "
         pass
     
     def create_linear_graph(self, conclusion, type):
-        " Function explanation "
+        " This function created a linear graph with the data within a conclusion object "
         pass
         
         

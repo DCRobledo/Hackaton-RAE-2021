@@ -2,5 +2,5 @@
 
 class icomposer:
     def transform_into_group(self, word):
-        " Function explanation "
+        " This functions transform a multiple word entrance into a general word group "
         pass

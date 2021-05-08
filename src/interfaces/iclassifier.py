@@ -6,13 +6,13 @@ class iclassifier:
         set_composition(word)
         
     def set_category(self, word):
-        " Function explanation "
+        " This function decides in which category belongs the word to classify "
         pass
         
     def set_scope(self, word):
-        " Function explanation "
+        " This function decides in which scope belongs the word to classify "
         pass
         
     def set_composition(self, word):
-        " Function explanation "
+        " This function decides in which composition belongs the word to classify "
         pass

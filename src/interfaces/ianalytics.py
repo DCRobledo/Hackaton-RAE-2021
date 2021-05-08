@@ -46,35 +46,35 @@ class ianalytics:
     
     
     def filter_by_year(self, word_group, year):
-        " Function explanation"
+        " This function filter the words within a group by year "
         pass
     
     def order_by_frecuency(self, word_group):
-        " Function explanation"
+        " This function orders the whole word group by their frecuencies "
         pass
     
     def filter_foreign_words(self, word_group):
-        " Function explanation"
+        " This function filter the words within a group by whether or not they are a foreign word "
         pass
     
     def get_alternatives(self, word_group):
-        " Function explanation"
+        " This function gets the alternativates for each foreign word "
         pass
     
     def filter_technicisms(self, word_group):
-        " Function explanation"
+        " This function filter the words within a group by whether or not they are a technicism "
         pass
     
     def get_frecuency_per_type(self, word_group):
-        " Function explanation"
+        " This functions return the frecuency for each type of word "
         pass
     
     def order_by_frecuency_in_year_range(self, word_group, range):
-        " Function explanation"
+        " This function orders the whole word group by their frecuencies within a range of years"
         pass
     
     def get_definition(self, word_group):
-        " Function explanation"
+        " This function gets the definition of every word within a word group "
         pass
         
         
