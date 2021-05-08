@@ -1,6 +1,6 @@
-from common.constants import *
-from common.metaclasses import *
-from common.enums import *
+from src.common.constants import *
+from src.common.metaclasses import *
+from src.common.enums import *
 
 class input_processor(metaclass=SingletonMeta):
     def __init__(self):
